@@ -1,0 +1,20 @@
+[ui]
+username = Ardo Illaste <ardo.illaste@gmail.com>
+
+[extensions]
+hgext.convert=
+hgext.extdiff =
+hgext.rebase =
+hgext.graphlog =
+hggit = 
+
+[web]
+#cacerts = /etc/ssl/certs/ca-certificates.crt
+cacerts = /etc/hg-dummy-cert.pem
+allow_archive = gz zip
+
+[ui]
+merge = meld
+
+[merge-tools]
+meld.args = $local $base $other 
