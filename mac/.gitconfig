@@ -3,15 +3,15 @@
 	email = ardo.illaste@gmail.com
 [core]
 	editor = vim
-    autocrlf = input
+	autocrlf = input
 [push]
 	default = simple
 [alias]
-    st = status
-    co = checkout
-    br = branch
-    up = rebase
-    ci = commit
+	st = status
+	co = checkout
+	br = branch
+	up = rebase
+	ci = commit
 [pull]
-    rebase = true
+	rebase = true
 
